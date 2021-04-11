@@ -39,10 +39,22 @@ class Saved extends Component {
     }
 
     render(){
-
-
-        
-
+        return (
+            <div>
+                <Nav />
+                <Container fluid>
+                {this.state.savedBooks.length ? (
+                <SavedList 
+                    bookState={this.state.savedBooks}
+                    deleteGoogleBook={this.deleteGoogleBook}
+                    >
+                </SavedList>
+                    ) : (
+                    <h5>No results to display</h5>
+                )}
+                </Container>
+            </div>
+        )
     }
 }
 
