@@ -1,0 +1,6 @@
+.myText {
+    color: black;
+    font-weight: bold;
+    position: relative;
+    transform: translateY(100px)
+}
