@@ -1,5 +1,13 @@
+.jumbotron {
+    box-shadow: 5px 5px 7px 0px rgba(135,135,135,0.83);
+    background-image: url("../../utils/img/essentialBooks.jpg");
+    background-size: cover;
+    height: 500px;
+    background-position: center;
+}
+
 .myText {
-    color: black;
+    color: White;
     font-weight: bold;
     position: relative;
     transform: translateY(100px)
