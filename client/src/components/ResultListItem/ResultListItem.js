@@ -32,7 +32,7 @@ class ResultListItem extends Component {
     }
 
     onClickFunc = () => {
-        this.props.saveGoogleBook(this.props)//.bind(this, this.props);
+        this.props.saveGoogleBook(this.props)
         this.getStyle();
     }
 
