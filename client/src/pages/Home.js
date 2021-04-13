@@ -23,6 +23,13 @@ class Home extends Component {
             .catch(err => console.log(err)); 
     };
 
+    handleInputChange = event => {
+        const {name, value} = event.target;
+        this.setState({
+            [name]: value
+        });
+    };
+
     handleFormSubmit = event => {
         event.preventDefault();
         this.searchBooks();
