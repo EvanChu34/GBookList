@@ -1,4 +1,3 @@
-
 import React, { Component } from 'react'
 import { Container } from "../components/Grid/Grid";
 import Nav from "../components/Nav/Nav";
