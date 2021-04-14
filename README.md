@@ -13,7 +13,11 @@
 ---------------------------	
 
 ## About
-GBookList is an application that allows users to 
+GBookList is an application that allows users to search and save books. On the home tab, 
+the user can use the search bar to find any book they want. The result list appears on the 
+bottom of the page and you can scroll the list. The user can also click the "View Book" button
+to view the book on books.google.com. The user can also click the "Save" button to the save 
+the book on the saved list. You can access the saved list on the the Saved tab.
 
 ---------------------------
 
@@ -27,7 +31,7 @@ https://frozen-thicket-86433.herokuapp.com/
 
 ## Pictures/Gif of Application
 
-![]()
+![](assets/GBookList-Demo.gif)
 
 ---------------------------	
 
@@ -37,7 +41,6 @@ Before you start, you need a few things:
 * Mongoose
 * Axios
 * Heroku Setup
-
 
 ---------------------------	
 
