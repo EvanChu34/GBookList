@@ -1,6 +1,6 @@
 const path = require("path");
 const router = require("express").Router();
-const bookRoutes = require("./api/api-books");
+const bookRoutes = require("./api");
 
 router.use("/api", bookRoutes);
 
